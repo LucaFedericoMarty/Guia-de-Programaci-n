@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class Ej6S : MonoBehaviour
 {
+    // Realizá un programa que permita el ingreso por Inspector de un valor entero mayor que 0 en una variable 
+    // llamada num1 y muestre un mensaje por pantalla indicando "el  número es par" o "el número es impar". 
+    // Deberá utilizar el operador “módulo” es el caracter  %.
+
     public int num1 = 5;
 
     // Start is called before the first frame update

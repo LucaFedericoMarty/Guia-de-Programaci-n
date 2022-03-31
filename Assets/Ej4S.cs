@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class Ej4S : MonoBehaviour
 {
+    // Realizá un programa que permita ingresar dos números enteros num1 y num2 por Inspector. 
+    // Luego, mostrar el resultado de la suma entre ambos al ejecutar la escena utilizando el siguiente formato: 
+    // “La  suma entre “ + num1 + “ y “ + num2 + “ da como resultado “ + num1 + num2.
+
     public int num1 = 3;
     public int num2 = 5;
 
