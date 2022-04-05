@@ -20,19 +20,30 @@ public class Ej9S : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        int cas;
         int captot = cap1 + cap2 + cap3;
+        float porc1 = (cap1 / captot) * 100;
+        float porc2 = (cap2 / captot) * 100;
+        float porc3 = (cap3 / captot) * 100;
 
-        switch (cas)
+        Debug.Log("Nombre: " + nom1);
+        Debug.Log("Capital aportado: " + cap1);
+        Debug.Log("Porcentaje del capital: " + porc1);
+        Debug.Log("Monto total aportado: " + captot);
+
+        Debug.Log("Nombre: " + nom2);
+        Debug.Log("Capital aportado: " + cap2);
+        Debug.Log("Porcentaje del capital: " + porc2);
+        Debug.Log("Monto total aportado: " + captot);
+
+        Debug.Log("Nombre: " + nom3);
+        Debug.Log("Capital aportado: " + cap3);
+        Debug.Log("Porcentaje del capital: " + porc3);
+        Debug.Log("Monto total aportado: " + captot);
+
+        // Update is called once per frame
+        void Update()
         {
-            case 1:
-                Debug.Log
-        }
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        }
     }
 }
