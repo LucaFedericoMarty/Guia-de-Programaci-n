@@ -23,24 +23,24 @@ public class Ej15S : MonoBehaviour
         estaEnA = numero % 2 > 0;
         estaEnB = numero < 10;
         estaEnAmbos = (numero % 2 > 0) && (numero < 10);
-        noEstaEnNinguno = numero % 2 < 0 && numero > 10;
+        noEstaEnNinguno = (numero % 2 < 0) && (numero > 10);
 
         if (estaEnA)
         {
             Debug.Log("El numero es impar");
         }
 
-        else if (estaEnB)
+        if (estaEnB)
         {
             Debug.Log("El numero es de una cifra");
         }
 
-        else if (estaEnAmbos)
+        if (estaEnAmbos)
         {
             Debug.Log("El numero es tanto impar como de una cifra");
         }
 
-        else if (noEstaEnNinguno)
+        if (noEstaEnNinguno)
         {
             Debug.Log("El numero no es ni impar ni de una cifra");
         }
